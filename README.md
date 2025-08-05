@@ -86,6 +86,7 @@ Follow these steps:
 1. Go to the /token endpoint on Swagger UI:
 2. Click "Try it out" and enter the credentials:
 
+⚠️ This credentials are only for development/testing purposes.
 ```json
 {
   "username": "admin",

@@ -4,7 +4,7 @@ from fastapi import HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from typing import Optional
 
-# Clave secreta (idealmente en .env)
+# ⚠️ This secret key is only for development/testing purposes.
 SECRET_KEY = "tu_clave_secreta"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30

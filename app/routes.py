@@ -93,6 +93,7 @@ async def get_stats(_token_data=Depends(verify_token)):
 @router.post("/token")
 def login(username: str = Body(...), password: str = Body(...)):
     # Esto es un "login simulado" para pruebas
+    # ⚠️ This credentials are only for development/testing purposes.
     if username == "admin" and password == "secret":
         access_token = create_access_token(data={"sub": username})
         return {"access_token": access_token, "token_type": "bearer"}
