@@ -1,7 +1,7 @@
 # 🐶 Rook API Wrapper
 
 This project is a secure wrapper over the [Dog CEO API](https://dog.ceo/dog-api/) built using **FastAPI**. It supports JWT-based authentication and stores breed request data in **MongoDB** for analytics and tracking.
-
+Developed using python 3.11
 ---
 
 ## 📦 How to Install the Dependencies
